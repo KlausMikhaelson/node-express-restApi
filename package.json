@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index.js"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KlausMikhaelson/node-express-restApi.git"
@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/KlausMikhaelson/node-express-restApi#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.18"
